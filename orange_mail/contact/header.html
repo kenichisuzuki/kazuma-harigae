@@ -16,10 +16,48 @@ OF_header.css({
   background : '#ffffff',
   '-moz-box-shadow' : '0px 0px 2px rgba(0,0,0,0.25)',
   '-webkit-box-shadow' : '0px 0px 2px rgba(0,0,0,0.25)',
-  'box-shadow' : '0px 0px 2px rgba(0,0,0,0.25)'
+  'box-shadow' : '0px 0px 2px rgba(0,0,0,0.25)',
+  'text-align' : 'center'
 
 });
 
+var OF_form1 = $('#OF_form1');
+OF_form1.css({
+  width : 630,
+  marginLeft : 40,
+  marginTop : 38
+});
+
+var formtable = $('#formtable');
+formtable.css({
+  width : 630,
+  borderTop : '1px solid #dddddd',
+  borderLeft : 'none'
+})
+
+var formtableTh = $('#formtable th');
+var formtableTd = $('#formtable td');
+formtableTh.css({
+  borderRight : 'none',
+  borderBottom : '1px solid #dddddd',
+  background : '#eeeeee',
+  padding : 20,
+  textAlign : 'left'
+});
+formtableTd.css({
+  borderRight : 'none',
+  borderBottom : '1px solid #dddddd',
+  padding : 20
+});
+
+
+$('#caption').css({
+  display : 'none'
+});
+
+$('input[type=submit]').css({
+  marginBottom : 40
+});
 
 })
 </script>
@@ -29,18 +67,5 @@ OF_header.css({
 <div class="content-body">
 
 
-<img src="https://raw.github.com/kenichisuzuki/kazuma-harigae/master/orange_mail/contact/img/contact_header.jpg" width="710" height="321" />
+<h1><img src="https://raw.github.com/kenichisuzuki/kazuma-harigae/master/orange_mail/contact/img/contact_header.jpg" width="710" height="321" alt="管理職や幹部教育でお悩みのことはありませんか？あなたの質問にお答えします。" /></h1>
 
-
-<center>
-<h1 id="default">%%title%%</h1>
-<br>
-必要事項をご記入の上、送信ボタンをクリックしてください。<br>
-<br>
-すぐに登録完了メールが届きます。<br>
-万が一、3分以内にメールが届かない場合は、<br>
-メールアドレスの入力ミスが考えられますので、<br>
-大変お手数ですが、再度入力をお願いします。<br>
-<br>
-<span class="must">*</span> は必須入力です。<br>
-</center>
